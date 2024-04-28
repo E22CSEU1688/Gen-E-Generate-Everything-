@@ -1,3 +1,4 @@
+/**
 import { auth } from "@clerk/nextjs";
 import { NextResponse } from "next/server";
 import { Configuration, OpenAIApi } from "openai";
@@ -62,3 +63,4 @@ export async function POST(
     return new NextResponse("Internal Error", { status: 500 });
   }
 };
+*/

@@ -1,4 +1,4 @@
-import { auth } from "@clerk/nextjs";
+/**import { auth } from "@clerk/nextjs";
 import { NextResponse } from "next/server";
 import { ChatCompletionRequestMessage, Configuration, OpenAIApi } from "openai";
 
@@ -58,3 +58,4 @@ export async function POST(
     return new NextResponse("Internal Error", { status: 500 });
   }
 };
+*/
